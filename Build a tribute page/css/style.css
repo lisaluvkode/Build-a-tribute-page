@@ -1,0 +1,200 @@
+/* 
+* {
+   outline: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.jumbotron{
+  margin-top:60px;
+}
+/* over 1000px 
+@media (min-width:999px)and (max-width:999px){
+  .mainimage{
+    width:100%;
+  }
+  
+  .image{
+    width:70%;
+    height:50%;
+    margin-top:10%;
+  }
+  
+  .image1{
+    width:90%;
+    height:40%;
+    margin-top:20%; 
+  }
+  
+  .image2{
+    width:60%;
+    margin:25px;
+  } 
+  
+  .background{
+    width:100%;
+  }
+  
+  
+}
+*/
+
+/* under 1000px */
+@media(max-width:768px){
+  .row{
+    flex-wrap: wrap;
+    display:wrap;
+  }
+  
+ 
+  .mainimage{
+    width:100%;
+  }
+  
+  .image{
+    width: 70%;
+    height:80%;
+    margin-top:10%;
+  }
+  
+  .image1{
+    width:80%;
+  }
+  
+  .image2{
+    width:75%;
+   
+    
+    
+  }
+ 
+  .background{
+    width:100%;
+  }
+}
+
+
+/* under 500 px 
+@media (max-width:px){
+  .row{
+    flex-wrap: wrap;
+  }
+  .image{
+    width: 60%;
+    height:80%;
+    margin-top:10%;
+  }
+  
+  .image1{
+    width:90%;
+    height:50%;
+  
+  }
+  
+  .image2{
+    width:90%;
+  }
+}
+*/
+
+
+@media (max-width:380px){
+  .row{
+    flex-wrap: wrap;
+}
+  
+}
+
+
+
+.title{
+  text-algin:center;
+  font-family:  'Tangerine', 'Arial', 'times',  cursive, sans-serif;
+
+}
+
+.mainimage{
+  width:100%;
+}
+
+.image{
+  width:70%;
+  margin-top:10%;
+}
+
+.image1{
+    width:90%;
+    margin-top:20%; 
+  }
+  
+.image2{
+    width:77%; 
+   
+    
+  } 
+  
+.background{
+  width:100%;
+}
+
+
+
+.description{
+  padding:25px;
+  margin:auto;
+  
+  text-align:justify;
+}
+
+.row {
+  display:flex;
+  text-align:center;
+  
+  }
+
+.background{
+  background:url("https://lh6.googleusercontent.com/RC6RyP2gd3qQAOqExQzQ0hoUV-jpcGayKKuWmsl8CV3g7PoPrh6fCfQrygk=w1200-h630-p");
+  background-repeat:repeat;
+  background-size:100%;
+  background-position:center top;
+  background-attachment: fixed;
+  
+}
+
+.effect{
+  background-color:rgba( 240, 240, 240, 0.7);
+}
+
+a.lisa:hover{
+  color:blue;
+}
+
+.lisa {
+  text-decoration:none;
+  color:white;
+}
+
+#video{
+  width:100%;
+  margin-left:0%;
+  margin-right:0%;
+}
