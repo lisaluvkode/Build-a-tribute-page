@@ -1,4 +1,4 @@
-/* 
+/*
 * {
    outline: 1px solid red !important;
 }
@@ -27,34 +27,34 @@
 .jumbotron{
   margin-top:60px;
 }
-/* over 1000px 
+/* over 1000px
 @media (min-width:999px)and (max-width:999px){
   .mainimage{
     width:100%;
   }
-  
+
   .image{
     width:70%;
     height:50%;
     margin-top:10%;
   }
-  
+
   .image1{
     width:90%;
     height:40%;
-    margin-top:20%; 
+    margin-top:20%;
   }
-  
+
   .image2{
     width:60%;
     margin:25px;
-  } 
-  
+  }
+
   .background{
     width:100%;
   }
-  
-  
+
+
 }
 */
 
@@ -64,36 +64,36 @@
     flex-wrap: wrap;
     display:wrap;
   }
-  
- 
+
+
   .mainimage{
     width:100%;
   }
-  
+
   .image{
     width: 70%;
     height:80%;
     margin-top:10%;
   }
-  
+
   .image1{
     width:80%;
   }
-  
+
   .image2{
     width:75%;
-   
-    
-    
+
+
+
   }
- 
+
   .background{
     width:100%;
   }
 }
 
 
-/* under 500 px 
+/* under 500 px
 @media (max-width:px){
   .row{
     flex-wrap: wrap;
@@ -103,13 +103,13 @@
     height:80%;
     margin-top:10%;
   }
-  
+
   .image1{
     width:90%;
     height:50%;
-  
+
   }
-  
+
   .image2{
     width:90%;
   }
@@ -121,7 +121,7 @@
   .row{
     flex-wrap: wrap;
 }
-  
+
 }
 
 
@@ -130,6 +130,15 @@
   text-algin:center;
   font-family:  'Tangerine', 'Arial', 'times',  cursive, sans-serif;
 
+}
+
+h1.title{
+   font-weight:bold;
+   font-size:80px;
+}
+
+h2.title{
+   font-size:50px;
 }
 
 .mainimage{
@@ -143,15 +152,15 @@
 
 .image1{
     width:90%;
-    margin-top:20%; 
+    margin-top:20%;
   }
-  
+
 .image2{
-    width:77%; 
-   
-    
-  } 
-  
+    width:77%;
+
+
+  }
+
 .background{
   width:100%;
 }
@@ -161,14 +170,14 @@
 .description{
   padding:25px;
   margin:auto;
-  
+
   text-align:justify;
 }
 
 .row {
   display:flex;
   text-align:center;
-  
+
   }
 
 .background{
@@ -177,7 +186,7 @@
   background-size:100%;
   background-position:center top;
   background-attachment: fixed;
-  
+
 }
 
 .effect{
@@ -188,8 +197,12 @@ a.lisa:hover{
   color:blue;
 }
 
-.lisa {
+.lisalink {
   text-decoration:none;
+  color:white;
+}
+
+div footer p{
   color:white;
 }
 
