@@ -28,93 +28,30 @@
   margin-top:60px;
 }
 
-/* over 1000px
-@media (min-width:999px)and (max-width:999px){
-  .mainimage{
-    width:100%;
-  }
-
-  .image{
-    width:70%;
-    height:50%;
-    margin-top:10%;
-  }
-
-  .image1{
-    width:90%;
-    height:40%;
-    margin-top:20%;
-  }
-
-  .image2{
-    width:60%;
-    margin:25px;
-  }
-
-  .background{
-    width:100%;
-  }
-
-
-}
-*/
-
-/* under 1000px */
-@media(max-width:768px){
-  .row{
-    flex-wrap: wrap;
-    display:wrap;
-  }
-
-
-  .mainimage{
-    width:100%;
-  }
-
-  .image{
-    width: 70%;
-    height:80%;
-    margin-top:10%;
-  }
-
-  .image1{
-    width:80%;
-  }
-
-  .image2{
-    width:75%;
-  }
-
-  .background{
-    width:100%;
-  }
-}
-
-
-@media (max-width:380px){
-  .row{
-    flex-wrap: wrap;
-}
-
-}
-
-
-
 .title{
   text-algin:center;
   font-family:  'Tangerine', 'Arial', 'times',  cursive, sans-serif;
 
 }
 
-div h1.title{
+h1.title{
    font-weight:bold;
-   font-size:10vw;
+   font-size:150px;
+   line-height: 40px;
    color:#00469E;
 }
 
-div h2.title{
-   font-size:7vw;
+h2.title{
+   font-size:75px;
    color:#00469E;
+}
+
+li{
+  margin:10px;
+}
+
+ul{
+  margin-left: -30px;
 }
 
 .mainimage{
@@ -129,32 +66,26 @@ div h2.title{
 
 .image1{
     width:90%;
-    margin-top:20%;
+    margin-top:30%;
   }
 
 .image2{
     width:77%;
-
-
   }
 
 .background{
   width:100%;
 }
 
-
-
 .description{
   padding:25px;
   margin:auto;
-
   text-align:justify;
 }
 
 .row {
   display:flex;
   text-align:center;
-
   }
 
 .background{
@@ -179,7 +110,7 @@ a.lisa:hover{
   color:white;
 }
 
-div footer p{
+footer p{
   color:white;
 }
 
@@ -187,4 +118,59 @@ div footer p{
   width:100%;
   margin-left:0%;
   margin-right:0%;
+}
+
+/* under 768px */
+@media(max-width:768px){
+
+  h1.title{
+    font-size: 12vw;
+    line-height: 5px;
+  }
+
+  h2.title{
+    font-size: 8vw;
+    margin:20px 0 30px 0;
+  }
+
+  .row{
+    flex-wrap: wrap;
+    display:wrap;
+  }
+
+  li{
+    margin:10px;
+  }
+
+  ul{
+    margin-left: -10px;
+  }
+
+  .mainimage{
+    width:100%;
+  }
+
+  .image{
+    width: 70%;
+    height:80%;
+  }
+
+  .image1{
+    width:80%;
+    margin-top: 20px;
+  }
+
+  .image2{
+    width:75%;
+  }
+
+  .background{
+    width:100%;
+  }
+
+
+@media (max-width:380px){
+  .row{
+    flex-wrap: wrap;
+  }
 }
